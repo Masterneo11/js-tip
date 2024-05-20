@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Eta</h1>
+    <script type="text/javascript">
+
+        var destination = Number(prompt(" Enter distance number"));
+        console.log("Destination length = " + destination);
+        
+
+        var speed = Number(prompt(" Enter speed in mph"));
+        console.log(" speed = " + speed);
+
+        var eta = destination / speed;
+        var etaAdjusted = parseFloat(eta.toFixed(2));
+        alert( "eta = " + etaAdjusted + " hours");
+
+    </script>
+</body>
+</html>
